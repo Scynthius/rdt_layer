@@ -20,7 +20,7 @@ class UnreliableChannel():
     RATIO_DROPPED_PACKETS = 0.1
     RATIO_DELAYED_PACKETS = 0.1
     RATIO_DATA_ERROR_PACKETS = 0.1
-    RATIO_OUT_OF_ORDER_PACKETS = 0.1
+    RATIO_OUT_OF_ORDER_PACKETS = 0.5
     ITERATIONS_TO_DELAY_PACKETS = 5
 
     def __init__(self, canDeliverOutOfOrder_, canDropPackets_, canDelayPackets_, canHaveChecksumErrors_):
